@@ -1,0 +1,1 @@
+You should unzip "rgbd_dataset_freiburg2_desk.zip" on this directory.
