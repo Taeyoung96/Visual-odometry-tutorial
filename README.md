@@ -52,3 +52,7 @@ If you are finished, the dataset path is as follows.
 - TUM dataset - freiburg2_desk sequence : `~[YOUR_DIR]/Visual-odometry-tutorial/data/tum`.  
 
 
+## How to run this repository  
+
+There are 3 python files that you can run it.  
+
