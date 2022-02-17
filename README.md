@@ -78,7 +78,7 @@ python feature_matching.py
 
 ### `feature_matching.py` Result  
 
-<p align="center"><img src="/result/feature_matching.png" width = "300" ></p>  
+<p align="center"><img src="/result/feature_matching.png" width = "500" ></p>  
 
 When you want to execute `epipolar.py` on default directory (`~/Visual-odometry-tutorial`)  
 follow codes below.  
@@ -89,7 +89,7 @@ python epipolar.py
 
 ### `epipolar.py` Result  
 
-<p align="center"><img src="/result/epipolar.png" width = "300" ></p>  
+<p align="center"><img src="/result/epipolar.png" width = "500" ></p>  
 
 In `visual-odometry/` folder there is `vo.py`  
 
@@ -114,7 +114,7 @@ python vo.py --dataset_type='KITTI'
 ```
 ### `vo.py` Result (KITTI)  
 
-<p align="center"><img src="/result/vo_kitti.png" width = "300" ></p>  
+<p align="center"><img src="/result/vo_kitti.png" width = "700" ></p>  
 
 Or if you want to run code with **TUM dataset**,  
 ```
@@ -122,7 +122,7 @@ python vo.py --dataset_type='TUM'
 ```
 ### `vo.py` Result (TUM)  
 
-<p align="center"><img src="/result/vo_tum.png" width = "300" ></p>  
+<p align="center"><img src="/result/vo_tum.png" width = "700" ></p>  
 
 **The results are not accurate. This is because we are not doing any optimizations, we are just estimating.**  
 
