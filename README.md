@@ -7,6 +7,11 @@ The original material is available in [bitbucket](https://bitbucket.org/castacks
 I just fixed some directory in code, provided dataset and requirement.txt!  
 I tested this repository on Ubuntu 18.04.  
 
+## Contents  
+- [How to setup enviornmet](#how-to-setup-enviornmet)  
+- [How to run this repository](#how-to-run-this-repository)  
+- [Contact](#contact)
+
 ## How to setup enviornmet  
 
 You should have [Anaconda](https://www.anaconda.com/).  
