@@ -2,7 +2,7 @@
 
 You could see the Video lecture on [Youtube](https://youtu.be/VOlYuK6AtAE).  
 
-The original code is available in [bitbucket](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/).  
+The original material is available in [bitbucket](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/).  
 
 I just fixed some directory in code, provided dataset and requirement.txt!  
 I tested this repository on Ubuntu 18.04.  
@@ -57,3 +57,70 @@ If you are finished, the dataset path is as follows.
 
 There are 3 python files that you can run it.  
 
+In `cv_basics/` folder there are `epipolar.py` and `feature_matching.py`.  
+
+- `feature_matching.py` : Visualize the result of feature matching using two consecutive images.  
+  We extracted keypoints using ORB features and did feature math with brute-force matching algorthm.  
+  
+- `epipolar.py` : Visualize the epipolar line using two consecutive images.  
+
+When you want to execute `feature_matching.py` on default directory (`~/Visual-odometry-tutorial`)  
+follow codes below.  
+```
+cd cv_basics  
+python feature_matching.py
+```
+
+### `feature_matching.py` Result  
+
+<p align="center"><img src="/result/optimized_pose.png" width = "300" ></p>  
+
+When you want to execute `epipolar.py` on default directory (`~/Visual-odometry-tutorial`)  
+follow codes below.  
+```
+cd cv_basics  
+python epipolar.py
+```
+
+### `epipolar.py` Result  
+
+<p align="center"><img src="/result/optimized_pose.png" width = "300" ></p>  
+
+In `visual-odometry/` folder there is `vo.py`  
+
+When you want to execute `vo.py` on default directory (`~/Visual-odometry-tutorial`)  
+follow codes below.  
+
+When you finish the code, you could get **Trajectory.png and Trajectory.txt**!.  
+
+```
+cd visual-odometry 
+```
+
+There are 3 arguments, run this code.  
+
+- `'--data_dir_root'` : Set the dataset path. (When you follow **2. Prepare the dataset** you could use deafult path.)  
+- `'--dataset_type'` : Decide which dataset to use.  
+- `'--len_trajMap'` : Specifies the size of the trajectory visualized window.  
+
+If you want to run code with **KITTI dataset**,  
+```
+python vo.py --dataset_type='KITTI'
+```
+### `vo.py` Result (KITTI)  
+
+<p align="center"><img src="/result/optimized_pose.png" width = "300" ></p>  
+
+Or if you want to run code with **TUM dataset**,  
+```
+python vo.py --dataset_type='TUM'
+```
+### `vo.py` Result (TUM)  
+
+<p align="center"><img src="/result/optimized_pose.png" width = "300" ></p>  
+
+## Contact  
+
+If you have any question, feel free to send an email.  
+
+- **TaeYoung Kim** : tyoung96@yonsei.ac.kr   
