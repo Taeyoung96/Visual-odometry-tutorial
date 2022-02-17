@@ -78,7 +78,7 @@ python feature_matching.py
 
 ### `feature_matching.py` Result  
 
-<p align="center"><img src="/result/feature_matching.png" width = "500" ></p>  
+<p align="center"><img src="/result/feature_matching.png" width = "600" ></p>  
 
 When you want to execute `epipolar.py` on default directory (`~/Visual-odometry-tutorial`)  
 follow codes below.  
@@ -89,7 +89,7 @@ python epipolar.py
 
 ### `epipolar.py` Result  
 
-<p align="center"><img src="/result/epipolar.png" width = "500" ></p>  
+<p align="center"><img src="/result/epipolar.png" width = "600" ></p>  
 
 In `visual-odometry/` folder there is `vo.py`  
 
