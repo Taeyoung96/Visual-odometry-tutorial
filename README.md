@@ -15,7 +15,8 @@ You should have [Anaconda](https://www.anaconda.com/).
 
 First, just clone this repository.  
 ```
-git clone https://github.com/Taeyoung96/Visual-odometry-tutorial.git
+git clone https://github.com/Taeyoung96/Visual-odometry-tutorial.git  
+cd Visual-odometry-tutorial
 ```
 Make virtual environment with python version 3.8.  
 
