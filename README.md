@@ -102,12 +102,12 @@ When you finish the code, you could get **Trajectory.png and Trajectory.txt**!.
 cd visual-odometry 
 ```
 
-There are 3 arguments, run the code below.  
+There are 3 arguments, when run the code below.  
 
 - `'--data_dir_root'` : Set the dataset path.  
-  (When you follow **2. Prepare the dataset** you could use deafult path.)  
-- `'--dataset_type'` : Decide which dataset to use.  
-- `'--len_trajMap'` : Specifies the size of the trajectory visualized window.  
+  (When you follow **2. Prepare the dataset** you could use deafult path. default='../data/')  
+- `'--dataset_type'` : Decide which dataset to use. (default='TUM') 
+- `'--len_trajMap'` : Specifies the size of the trajectory visualized window. (default=700)  
 
 If you want to run code with **KITTI dataset**,  
 ```
